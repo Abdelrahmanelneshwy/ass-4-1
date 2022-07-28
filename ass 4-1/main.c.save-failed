@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char a[];
+    printf("enter your char");
+    scanf("%s",a[]);
+    printf("enter your char %s",a[]);
+
+
+
+
+
+
+
+
+
+
+
+    /****************************************************
+    int i,j,counter=0;
+    char a[]="i like this program very much";
+    for( i = sizeof(a)-2; i>=0 ; i--)
+    {
+        counter++;
+        if(a[i]==' ')
+        {
+            for( j=i+1 ; j<i+counter; j++)
+            {
+                printf("%c",a[j]);
+            }
+            printf(" ");
+            counter=0;
+        }
+        else if(i==0)
+        {
+            for( j=i ; j<i+counter; j++)
+            {
+                printf("%c",a[j]);
+            }
+        }
+    }*/
+}
